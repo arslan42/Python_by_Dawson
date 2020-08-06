@@ -1,0 +1,15 @@
+#цитата из Томаса уотсона
+quote="Думаю, на мировом рынке можно будет продать штук пять компьютеров"
+print("исходная цитата")
+print(quote)
+print("\nin upper case")
+print(quote.upper())
+print("\nin lower case")
+print(quote.lower())
+print("\nas header")
+print(quote.title())
+print("\n with little change")
+print(quote.replace("штук пять","несколько миллионов"))
+print("\noriginal quote")
+print(quote)
+input("\n\nPush Enter to exit")
